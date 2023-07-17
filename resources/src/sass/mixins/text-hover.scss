@@ -1,0 +1,7 @@
+@mixin text-hover {
+    filter: brightness(84%);
+    transition: ease all 0.5s;
+    &:hover{
+        filter: brightness(105%);
+    }
+  }

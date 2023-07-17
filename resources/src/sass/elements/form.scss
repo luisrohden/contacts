@@ -1,0 +1,25 @@
+.form{
+    &__label{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: var(--space-x-half);
+
+    }
+    input,select,textarea{
+        padding:var(--space-x-quarter);
+        border-radius:var(--space-x-quarter);
+        border:1px solid var(--color-blue);
+    }
+    .repeater_actions{
+        display: flex;
+    }
+    .repeater__add{
+        margin-left: auto;
+        background-color:var(--color-blue);
+        color:var(--color-white);
+        padding:var(--space-x-quarter);
+        border-radius:var(--space-x-quarter);
+        cursor: pointer;
+        @include text-hover;
+    }
+}

@@ -1,0 +1,11 @@
+.contactList{
+    padding:var(--space-x-half) 0;
+    ul{
+        list-style: none;
+        margin:0;
+        padding: 0;
+    }
+    li{
+        margin-bottom: 12px;
+    }
+}

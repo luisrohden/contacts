@@ -1,0 +1,15 @@
+.footer{
+    border-top: 2px solid #333;
+    background-color: var(--color-blue);
+    color:var(--color-white);
+    height: 60px;
+    text-align: center;
+    font-style: italic;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    left:0;
+    bottom: 0;
+    width: 100%;
+}
